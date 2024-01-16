@@ -1,0 +1,165 @@
+body{
+    background-color: #53565B;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  h1{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 70px;
+    color: #3473C2;
+  }
+  #div{
+    border: 4px solid #BFDEEE;
+    background-image: url("planesunset.png");
+    height:254px;
+    width: 88%;
+  }
+  /* five is for the logo picture */
+  #five{
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    height: 50px;
+    width: 60px;
+  }
+  #one{
+    font-family: 'Lato', sans-serif;
+  }
+  /* two are for the beginning texts of each page */
+  #two{
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+  }
+  /* Three are for h2 of the picture categories*/
+  #three{
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  /* Four is flying pictures description */
+  #four{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #00B8FF;
+  }
+  /* flight pictures */
+  #six{
+   float: left;
+   margin: 10px;
+   width: 400px;
+  }
+  table, tr, td{
+    width: 400px;
+    margin: 5px;
+    text-align: center;
+    z-index: -1;
+  }
+  /* Seven are space camp pictures description */
+  #seven{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #6DDBE0;
+  }
+  /* Eight are vacation pictures description */
+  #eight{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #B8DEE0;
+  }
+  /* nine are middle-earth pics description */
+  #nine{
+     font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #17BF1F;
+  }
+  /* ten are general drawings description */
+  #ten{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #D19FE8;
+  }
+  #avdrawings{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #33AFFF;
+  }
+  .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-container > div{
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #53565B;
+    position: fixed;
+    width: 100%;
+    top:0;
+    border-bottom: 3px solid #BFDEEE;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px 16px;
+    color: #BFDEEE;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  .navbar a:hover{
+    background-color: #494C50;
+  }
+  /* Topnav*/
+  .topnav {
+    overflow: hidden;
+    background-color: #53565B;
+    position: fixed;
+    width: 100%;
+    top:0;
+    border-bottom: 3px solid #BFDEEE;
+  }
+  
+  .topnav a {
+  float: left;
+    font-size: 16px 16px;
+    color: #BFDEEE;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  .topnav a:hover {
+    background-color: #494C50;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 800px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav.responsive { position: -webkit-sticky; position: sticky;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }}
